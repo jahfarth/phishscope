@@ -1,0 +1,16 @@
+Subject: Your October statement is ready
+From: First Example Bank <statements@firstexamplebank.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <legit_05_bank.eml@samples.phishscope>
+Authentication-Results: mx.example.com; spf=pass
+ smtp.mailfrom=firstexamplebank.example; dkim=pass
+ header.d=firstexamplebank.example; dmarc=pass
+ header.from=firstexamplebank.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your October e-statement is ready in online banking. Sign in at https://first=
+examplebank.example/login to view it.
+We never ask for passwords by email.
