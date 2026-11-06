@@ -1,0 +1,20 @@
+Subject: Re: Sprint planning moved to 3pm
+From: Priya Sharma <priya.sharma@corp.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <legit_03_meeting.eml@samples.phishscope>
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=corp.example;
+ dkim=pass header.d=corp.example; dmarc=pass header.from=corp.example
+Received: from mail.corp.example (192.0.2.20) by mx.example.com
+Received: from relay.corp.example (192.0.2.21) by mail.corp.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi,
+
+Sprint planning moved to 3pm in room 4B. Agenda: https://corp.example/wiki/sp=
+rint-22
+
+Thanks,
+Priya
