@@ -1,0 +1,17 @@
+Subject: Apple ID receipt - purchase confirmation
+From: Apple <no-reply@xn--pple-43d.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <phishing_08_punycode.eml@samples.phishscope>
+Reply-To: refunds@apple-billing.example
+Authentication-Results: mx.example.com; spf=softfail
+ smtp.mailfrom=xn--pple-43d.example; dkim=none; dmarc=none
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Thank you for your purchase of $99.99. If you did not authorise this, cancel =
+within 24 hours or the charge is final:
+https://xn--pple-43d.example/cancel
+You will need your card number to confirm the refund.
+Apple Support
