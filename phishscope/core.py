@@ -293,4 +293,4 @@ def parse_eml(path) -> EmailArtifact:
         body_text=body_text,
         body_html=body_html,
         num_recipients=len(to_cc),
-  )
+    )
