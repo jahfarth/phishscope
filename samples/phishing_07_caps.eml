@@ -1,0 +1,16 @@
+Subject: FINAL WARNING YOUR ACCOUNT WILL BE CLOSED
+From: Netflix Billing <billing@netfl1x-pay.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <phishing_07_caps.eml@samples.phishscope>
+Authentication-Results: mx.example.com; spf=fail
+ smtp.mailfrom=netfl1x-pay.example; dkim=fail header.d=netfl1x-pay.example;
+ dmarc=fail header.from=netfl1x-pay.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+We were unable to charge your card. Update your payment method immediately or=
+ lose access:
+https://netfl1x-pay.example/billing
+Enter your card number and security code.
