@@ -27,4 +27,8 @@ jobs:
         run: python -m pytest -q
 
       - name: Smoke-test the analyser on the sample corpus
-        run: python -m phishscope scan samples/ --json > /dev/null
+        # analyze exits 1 when it finds phishing - for the phishing sample
+        # that is the expected, passing outcome
+        run: |
+          python -m phishscope analyze samples/legit_01_newsletter.eml --json > /dev/null
+          python -m phishscope analyze samples/phishing_01_paylookalike.eml --json > /dev/null && exit 1 || test $? -eq 1
