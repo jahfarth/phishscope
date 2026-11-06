@@ -1,0 +1,14 @@
+Subject: [sentinelx] Pull request merged
+From: GitHub <notifications@github.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <legit_06_github.eml@samples.phishscope>
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=github.example;
+ dkim=pass header.d=github.example; dmarc=pass header.from=github.example
+Received: from smtp.github.example (192.0.2.30) by mx.example.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Pull request #14 was merged into main.
+View it: https://github.example/jahfarth/sentinelx/pull/14
