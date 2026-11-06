@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishscope"
+version = "1.0.0"
+description = "Static phishing email triage: auth checks, IOC extraction, weighted rules and an explainable ML score"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Jahfar T H"}]
+keywords = ["phishing", "email-security", "soc", "dfir", "triage"]
+
+[project.scripts]
+phishscope = "phishscope.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["phishscope*"]
+
+[tool.setuptools.package-data]
+phishscope = ["models/*.json"]
