@@ -1,0 +1,18 @@
+Subject: New sign-in to your account
+From: Example Mail <no-reply@examplemail.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <legit_04_alert.eml@samples.phishscope>
+Return-Path: <no-reply@examplemail.example>
+Authentication-Results: mx.example.com; spf=pass
+ smtp.mailfrom=examplemail.example; dkim=pass header.d=examplemail.example;
+ dmarc=pass header.from=examplemail.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi,
+
+We noticed a new sign-in from Chrome on Windows at 9:02 AM IST. This was you,=
+ so no action is needed.
+Review devices: https://examplemail.example/security/devices
