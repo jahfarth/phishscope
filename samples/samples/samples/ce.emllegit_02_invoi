@@ -1,0 +1,28 @@
+Subject: Your receipt for order #4471
+From: ACME Store <orders@acme.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <legit_02_invoice.eml@samples.phishscope>
+Return-Path: <orders@acme.example>
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=acme.example;
+ dkim=pass header.d=acme.example; dmarc=pass header.from=acme.example
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8661630212425468697=="
+
+--===============8661630212425468697==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Thanks for your order! Total: $49.99.
+Track it here: https://acme.example/orders/4471
+Your invoice PDF is attached.
+
+--===============8661630212425468697==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice-4471.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljIHBsYWNlaG9sZGVyIC0gbm90IGEgcmVhbCBmaWxl
+
+--===============8661630212425468697==--
