@@ -1,0 +1,26 @@
+Subject: You have (1) pending document
+From: DocuSign <dse@docusign-eu.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <phishing_05_shortener.eml@samples.phishscope>
+Authentication-Results: mx.example.com; spf=softfail
+ smtp.mailfrom=docusign-eu.example; dkim=none; dmarc=none
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6219649761389887502=="
+
+--===============6219649761389887502==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+A document is waiting: https://bit.ly/3xK9mQ2
+
+--===============6219649761389887502==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>A document is waiting for your signature.</p><p><a href=3D"htt=
+ps://bit.ly/3xK9mQ2">Review document</a></p></body></html>
+
+--===============6219649761389887502==--
