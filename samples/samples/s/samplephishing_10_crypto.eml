@@ -1,0 +1,17 @@
+Subject: Your withdrawal is pending - verify wallet
+From: Coinbase Support <support@coinbase-verify.example>
+To: victim@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <phishing_10_crypto.eml@samples.phishscope>
+Authentication-Results: mx.example.com; spf=fail
+ smtp.mailfrom=coinbase-verify.example; dkim=fail
+ header.d=coinbase-verify.example; dmarc=fail
+ header.from=coinbase-verify.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+A withdrawal of 1.42 BTC is pending. Verify your identity to release the fund=
+s:
+https://coinbase-verify.example/wallet/confirm
+You will be asked for your login and security code.
