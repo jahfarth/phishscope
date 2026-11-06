@@ -1,0 +1,28 @@
+Subject: Invoice INV-2026-4471 due - FINAL NOTICE
+From: Accounts Receivable <billing@acme-supplies.example>
+To: finance@example.com
+Date: Fri, 06 Nov 2026 09:00:00 +0530
+Message-ID: <phishing_03_macrodoc.eml@samples.phishscope>
+Reply-To: collections@fastpay-settle.example
+Authentication-Results: mx.example.com; spf=softfail
+ smtp.mailfrom=acme-supplies.example; dkim=none; dmarc=none
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4852174304877690700=="
+
+--===============4852174304877690700==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Final notice: invoice INV-2026-4471 for $4,290.00 is overdue. Open the attach=
+ed document and follow the payment link to avoid late fees.
+https://fastpay-settle.example/pay/inv-2026-4471
+
+--===============4852174304877690700==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-4471.pdf.exe"
+MIME-Version: 1.0
+
+c3ludGhldGljIHBsYWNlaG9sZGVyIC0gbm90IGEgcmVhbCBmaWxl
+
+--===============4852174304877690700==--
